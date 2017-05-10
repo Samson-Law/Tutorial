@@ -1,0 +1,27 @@
+$ npm install --global gulp
+$ npm install --devDependencies gulp
+--------------------------------------
+$ npm install
+$ npm init //Create package.json
+
+Create gulpfile.js
+var gulp  = require('gulp'),
+    gutil = require('gulp-util');
+gulp.task('default', function() {
+  return gutil.log('Gulp is running!')
+});
+
+$ npm install gulp
+$ npm install --save-dev gulp-util
+
+install devDependencies:
+$ npm install --production
+
+
+sass compiler (gulp-sass)
+something to reload the page (browsersync)
+coffeescript linter (gulp-coffeelint)
+coffeescript compiler (gulp-coffee)
+concat files (gulp-concat)
+minify js (gulp-uglify)
+
